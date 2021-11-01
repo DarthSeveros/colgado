@@ -29,6 +29,7 @@ function startGame() {
     game.value = "";
     displayGame.style.display = 'flex';
     over.style.display = 'none'
+    winner.style.display = 'none'
     buttonStart.innerHTML = 'Play Again';
     attemps = 5;
     colgadoSad.style.display = "flex";
