@@ -21,6 +21,7 @@ function startGame() {
     displayGame.style.display = 'flex';
     over.style.display = 'none'
     buttonStart.innerHTML = 'Play Again';
+    attemps = 5;
 }
 
 function getWord() {
