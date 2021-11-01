@@ -13,6 +13,13 @@ function gameOver() {
     colgadoMuerto.style.display = "flex";
 }
 
+function winner() {
+    displayGame.style.display = 'none';
+    winner.style.display = 'block'
+    colgadoSad.style.display = "none";
+    colgadoFeliz.style.display = "flex";
+}
+
 function startGame() {
     wordGame = getWord();
     for (var i = 0; i < wordGame.length; i++) {
@@ -26,6 +33,7 @@ function startGame() {
     attemps = 5;
     colgadoSad.style.display = "flex";
     colgadoMuerto.style.display = "none";
+    colgadoFeliz.style.display = "none";
 }
 
 function getWord() {
@@ -40,6 +48,9 @@ function checkLetter() {
                 wordStatus[i] = wordGame[i];
             }
         }
+    }
+    else if (!wordStatus.includes("_")) {
+        winner();
     }
     else {
         attemps--;
