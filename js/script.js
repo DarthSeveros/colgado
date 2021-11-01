@@ -48,9 +48,9 @@ function checkLetter() {
                 wordStatus[i] = wordGame[i];
             }
         }
-    }
-    else if (!wordStatus.includes("_")) {
-        winner();
+        if (!wordStatus.includes("_")) {
+            winner();
+        }
     }
     else {
         attemps--;
