@@ -13,7 +13,7 @@ function gameOver() {
     colgadoMuerto.style.display = "flex";
 }
 
-function winner() {
+function win() {
     displayGame.style.display = 'none';
     winner.style.display = 'block'
     colgadoSad.style.display = "none";
@@ -49,7 +49,7 @@ function checkLetter() {
             }
         }
         if (!wordStatus.includes("_")) {
-            winner();
+            win();
         }
     }
     else {
