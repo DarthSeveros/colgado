@@ -29,7 +29,7 @@ function startGame() {
 }
 
 function getWord() {
-    var number = Math.floor(Math.random() * 3);
+    var number = Math.floor(Math.random() * 11);
     return wordList[number];
 }
 
