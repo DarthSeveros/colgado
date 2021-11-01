@@ -55,6 +55,6 @@ img {
     margin: auto;
 }
 
-#colgadoMuerto {
+#colgadoMuerto, #colgadoFeliz {
     display: none;
 }
