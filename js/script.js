@@ -30,9 +30,9 @@ function getWord() {
 }
 
 function checkLetter() {
-    if (wordGame.includes(game.value)){
+    if (wordGame.includes(game.value.toLowerCase())){
         for (var i = 0; i < wordGame.length; i++) {
-            if (game.value == wordGame[i]) {
+            if (game.value.toLowerCase() == wordGame[i]) {
                 wordStatus[i] = wordGame[i];
             }
         }
