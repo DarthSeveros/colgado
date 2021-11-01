@@ -72,3 +72,7 @@ img {
 #colgadoMuerto, #colgadoFeliz {
     display: none;
 }
+
+#word {
+    letter-spacing: .5rem;
+}
