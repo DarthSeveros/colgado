@@ -9,6 +9,8 @@ function updateWordStatus() {
 function gameOver() {
     displayGame.style.display = 'none';
     over.style.display = 'block'
+    colgadoSad.style.display = "none";
+    colgadoMuerto.style.display = "flex";
 }
 
 function startGame() {
@@ -22,6 +24,8 @@ function startGame() {
     over.style.display = 'none'
     buttonStart.innerHTML = 'Play Again';
     attemps = 5;
+    colgadoSad.style.display = "flex";
+    colgadoMuerto.style.display = "none";
 }
 
 function getWord() {

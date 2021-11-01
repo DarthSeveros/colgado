@@ -7,7 +7,7 @@ body {
 h1 {
     text-align: center;
     font-size: 4rem;
-    margin: 100px;
+    margin: 100px auto;
 }
 
 h2 {
@@ -46,5 +46,15 @@ button {
 }
 
 #over {
+    display: none;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+#colgadoMuerto {
     display: none;
 }
