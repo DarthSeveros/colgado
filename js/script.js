@@ -64,7 +64,7 @@ function displayMenu() {
 
 var wordGame = "";
 let wordStatus = [];
-let wordList = ["elefante", "burro", "jirafa","zanahoria","tomate"];
+let wordList = ["caballo","pato","gallo","elefante", "burro", "jirafa","sandia","manzana","perro","gato","raton"];
 var attemps = 5;
 buttonStart.onclick = startGame;
 buttonEnter.onclick = checkLetter;
