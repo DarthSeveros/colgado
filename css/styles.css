@@ -45,7 +45,7 @@ button {
     font-size: 2.5rem;
 }
 
-#over {
+#over, #winner {
     display: none;
 }
 
